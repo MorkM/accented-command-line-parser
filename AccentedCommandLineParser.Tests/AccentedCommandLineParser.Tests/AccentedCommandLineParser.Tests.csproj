@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoFixture" Version="3.0.8" />
+    <PackageReference Include="AutoFixture.AutoMoq" Version="3.0.8" />
+    <PackageReference Include="Machine.Specifications" Version="0.9.1" />
+    <PackageReference Include="Machine.Specifications.Should" Version="0.7.2" />
+    <PackageReference Include="Moq" Version="4.0.10827" />
+    <PackageReference Include="NUnit" Version="2.6.2" />
+    <PackageReference Include="xunit" Version="1.9.1" />
+    <PackageReference Include="xunit.extensions" Version="1.9.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\AccentedCommandLineParser\AccentedCommandLineParser.csproj" />
+  </ItemGroup>
+</Project>
